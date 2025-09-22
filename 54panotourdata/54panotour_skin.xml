@@ -154,7 +154,7 @@
     
   <!-- Spot Style - nút thái -->
   <style name="Iconnútthái"
-         url="./spots/_11_user_defaultpoint7.png"
+         url="./%FIRSTXML%/spots/_11_user_defaultpoint7.png"
          visible="false"
          onhover="onhoverIconnútthái"
          onout="onoutIconnútthái"
