@@ -317,10 +317,10 @@
 		<option name="navigation_arrows" value="true" type="bool" />
 
 
-		<option name="leftarrow_image" value="54panotourdata/graphics/gallery/_1.png" type="string" />
+		<option name="leftarrow_image" value="./54panotourdata/graphics/gallery/_1.png" type="string" />
 
 
-		<option name="rightarrow_image" value="54panotourdata/graphics/gallery/_4.png" type="string" />
+		<option name="rightarrow_image" value="./54panotourdata/graphics/gallery/_4.png" type="string" />
 
 
 		<option name="fullscreen_displayed" value="true" type="bool" />
@@ -339,10 +339,10 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="54panotourdata/graphics/gallery/_1.png"/>
-		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="54panotourdata/graphics/gallery/_2.png"/>
-		<item name="item_3" title="gallerypicture_title2" caption="gallerypicture_caption2" value="54panotourdata/graphics/gallery/_3.png"/>
-		<item name="item_4" title="gallerypicture_title3" caption="gallerypicture_caption3" value="54panotourdata/graphics/gallery/_4.png"/>
+		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="./54panotourdata/graphics/gallery/_1.png"/>
+		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="./54panotourdata/graphics/gallery/_2.png"/>
+		<item name="item_3" title="gallerypicture_title2" caption="gallerypicture_caption2" value="./54panotourdata/graphics/gallery/_3.png"/>
+		<item name="item_4" title="gallerypicture_title3" caption="gallerypicture_caption3" value="./54panotourdata/graphics/gallery/_4.png"/>
 	</internaldata>
 </ptplugin>
 
@@ -461,10 +461,10 @@
 		<option name="navigation_arrows" value="true" type="bool" />
 
 
-		<option name="leftarrow_image" value="54panotourdata/graphics/gallery1/a777nh_1.png" type="string" />
+		<option name="leftarrow_image" value="./54panotourdata/graphics/gallery1/a777nh_1.png" type="string" />
 
 
-		<option name="rightarrow_image" value="54panotourdata/graphics/gallery1/a777nh_5.png" type="string" />
+		<option name="rightarrow_image" value="./54panotourdata/graphics/gallery1/a777nh_5.png" type="string" />
 
 
 		<option name="fullscreen_displayed" value="true" type="bool" />
@@ -483,11 +483,11 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallery1picture_title0" caption="gallery1picture_caption0" value="54panotourdata/graphics/gallery1/a777nh_1.png"/>
-		<item name="item_2" title="gallery1picture_title1" caption="gallery1picture_caption1" value="54panotourdata/graphics/gallery1/a777nh_2.png"/>
-		<item name="item_3" title="gallery1picture_title2" caption="gallery1picture_caption2" value="54panotourdata/graphics/gallery1/a777nh_3.png"/>
-		<item name="item_4" title="gallery1picture_title3" caption="gallery1picture_caption3" value="54panotourdata/graphics/gallery1/a777nh_4.png"/>
-		<item name="item_5" title="gallery1picture_title4" caption="gallery1picture_caption4" value="54panotourdata/graphics/gallery1/a777nh_5.png"/>
+		<item name="item_1" title="gallery1picture_title0" caption="gallery1picture_caption0" value="./54panotourdata/graphics/gallery1/a777nh_1.png"/>
+		<item name="item_2" title="gallery1picture_title1" caption="gallery1picture_caption1" value="./54panotourdata/graphics/gallery1/a777nh_2.png"/>
+		<item name="item_3" title="gallery1picture_title2" caption="gallery1picture_caption2" value="./54panotourdata/graphics/gallery1/a777nh_3.png"/>
+		<item name="item_4" title="gallery1picture_title3" caption="gallery1picture_caption3" value="./54panotourdata/graphics/gallery1/a777nh_4.png"/>
+		<item name="item_5" title="gallery1picture_title4" caption="gallery1picture_caption4" value="./54panotourdata/graphics/gallery1/a777nh_5.png"/>
 	</internaldata>
 </ptplugin>
 
@@ -624,19 +624,19 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallery2picture_title0" caption="gallery2picture_caption0" value="54panotourdata/graphics/gallery2/_1__1_.png"/>
-		<item name="item_2" title="gallery2picture_title1" caption="gallery2picture_caption1" value="54panotourdata/graphics/gallery2/_2__1_.png"/>
-		<item name="item_3" title="gallery2picture_title2" caption="gallery2picture_caption2" value="54panotourdata/graphics/gallery2/_3__1_.png"/>
-		<item name="item_4" title="gallery2picture_title3" caption="gallery2picture_caption3" value="54panotourdata/graphics/gallery2/_4__2_.png"/>
-		<item name="item_5" title="gallery2picture_title4" caption="gallery2picture_caption4" value="54panotourdata/graphics/gallery2/_5__1_.png"/>
-		<item name="item_6" title="gallery2picture_title5" caption="gallery2picture_caption5" value="54panotourdata/graphics/gallery2/_6__1_.png"/>
-		<item name="item_7" title="gallery2picture_title6" caption="gallery2picture_caption6" value="54panotourdata/graphics/gallery2/_7.png"/>
-		<item name="item_8" title="gallery2picture_title7" caption="gallery2picture_caption7" value="54panotourdata/graphics/gallery2/_8.png"/>
-		<item name="item_9" title="gallery2picture_title8" caption="gallery2picture_caption8" value="54panotourdata/graphics/gallery2/_9.png"/>
-		<item name="item_10" title="gallery2picture_title9" caption="gallery2picture_caption9" value="54panotourdata/graphics/gallery2/_10.png"/>
-		<item name="item_11" title="gallery2picture_title10" caption="gallery2picture_caption10" value="54panotourdata/graphics/gallery2/_11.png"/>
-		<item name="item_12" title="gallery2picture_title11" caption="gallery2picture_caption11" value="54panotourdata/graphics/gallery2/_12.png"/>
-		<item name="item_13" title="gallery2picture_title12" caption="gallery2picture_caption12" value="54panotourdata/graphics/gallery2/_13.png"/>
+		<item name="item_1" title="gallery2picture_title0" caption="gallery2picture_caption0" value="./54panotourdata/graphics/gallery2/_1__1_.png"/>
+		<item name="item_2" title="gallery2picture_title1" caption="gallery2picture_caption1" value="./54panotourdata/graphics/gallery2/_2__1_.png"/>
+		<item name="item_3" title="gallery2picture_title2" caption="gallery2picture_caption2" value="./54panotourdata/graphics/gallery2/_3__1_.png"/>
+		<item name="item_4" title="gallery2picture_title3" caption="gallery2picture_caption3" value="./54panotourdata/graphics/gallery2/_4__2_.png"/>
+		<item name="item_5" title="gallery2picture_title4" caption="gallery2picture_caption4" value="./54panotourdata/graphics/gallery2/_5__1_.png"/>
+		<item name="item_6" title="gallery2picture_title5" caption="gallery2picture_caption5" value="./54panotourdata/graphics/gallery2/_6__1_.png"/>
+		<item name="item_7" title="gallery2picture_title6" caption="gallery2picture_caption6" value="./54panotourdata/graphics/gallery2/_7.png"/>
+		<item name="item_8" title="gallery2picture_title7" caption="gallery2picture_caption7" value="./54panotourdata/graphics/gallery2/_8.png"/>
+		<item name="item_9" title="gallery2picture_title8" caption="gallery2picture_caption8" value="./54panotourdata/graphics/gallery2/_9.png"/>
+		<item name="item_10" title="gallery2picture_title9" caption="gallery2picture_caption9" value="./54panotourdata/graphics/gallery2/_10.png"/>
+		<item name="item_11" title="gallery2picture_title10" caption="gallery2picture_caption10" value="./54panotourdata/graphics/gallery2/_11.png"/>
+		<item name="item_12" title="gallery2picture_title11" caption="gallery2picture_caption11" value="./54panotourdata/graphics/gallery2/_12.png"/>
+		<item name="item_13" title="gallery2picture_title12" caption="gallery2picture_caption12" value="./54panotourdata/graphics/gallery2/_13.png"/>
 	</internaldata>
 </ptplugin>
 
