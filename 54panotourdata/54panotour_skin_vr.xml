@@ -4,7 +4,7 @@
     
   <!-- Spot Style - chùm ảnh thái -->
   <style name="Iconchùmảnhthái"
-         url="./spots/_1_user_defaultpoint0.png"
+         url="%FIRSTXML%/spots/_1_user_defaultpoint0.png"
          visible="false"
          onhover="onhoverIconchùmảnhthái"
          onout="onoutIconchùmảnhthái"
@@ -29,7 +29,7 @@
     
   <!-- Spot Style - chùm ảnh ê đê -->
   <style name="Iconchùmảnhêđê"
-         url="./spots/_3_user_defaultpoint1.png"
+         url="%FIRSTXML%/spots/_3_user_defaultpoint1.png"
          visible="false"
          onhover="onhoverIconchùmảnhêđê"
          onout="onoutIconchùmảnhêđê"
@@ -54,7 +54,7 @@
     
   <!-- Spot Style - video ê đê -->
   <style name="Iconvideoêđê"
-         url="./spots/thi7871t_k7871_ch432a_co_ten__6__user_defaultpoint3.png"
+         url="%FIRSTXML%/spots/thi7871t_k7871_ch432a_co_ten__6__user_defaultpoint3.png"
          visible="false"
          onhover="onhoverIconvideoêđê"
          onout="onoutIconvideoêđê"
@@ -79,7 +79,7 @@
     
   <!-- Spot Style - audio thái -->
   <style name="Iconaudiothái"
-         url="./spots/thi7871t_k7871_ch432a_co_ten__7__user_defaultpoint4.png"
+         url="%FIRSTXML%/spots/thi7871t_k7871_ch432a_co_ten__7__user_defaultpoint4.png"
          visible="false"
          onhover="onhoverIconaudiothái"
          onout="onoutIconaudiothái"
@@ -104,7 +104,7 @@
     
   <!-- Spot Style - audio ê đê -->
   <style name="Iconaudioêđê"
-         url="./spots/_4_user_defaultpoint5.png"
+         url="%FIRSTXML%/spots/_4_user_defaultpoint5.png"
          visible="false"
          onhover="onhoverIconaudioêđê"
          onout="onoutIconaudioêđê"
@@ -129,7 +129,7 @@
     
   <!-- Spot Style - audio khmer -->
   <style name="Iconaudiokhmer"
-         url="./spots/_5_user_defaultpoint6.png"
+         url="%FIRSTXML%/spots/_5_user_defaultpoint6.png"
          visible="false"
          onhover="onhoverIconaudiokhmer"
          onout="onoutIconaudiokhmer"
@@ -154,7 +154,7 @@
     
   <!-- Spot Style - nút thái -->
   <style name="Iconnútthái"
-         url="./spots/_11_user_defaultpoint7.png"
+         url="%FIRSTXML%/spots/_11_user_defaultpoint7.png"
          visible="false"
          onhover="onhoverIconnútthái"
          onout="onoutIconnútthái"
@@ -179,7 +179,7 @@
     
   <!-- Spot Style - nút ê đê -->
   <style name="Iconnútêđê"
-         url="./spots/_12_user_defaultpoint8.png"
+         url="%FIRSTXML%/spots/_12_user_defaultpoint8.png"
          visible="false"
          onhover="onhoverIconnútêđê"
          onout="onoutIconnútêđê"
@@ -204,7 +204,7 @@
     
   <!-- Spot Style - nút khmer -->
   <style name="Iconnútkhmer"
-         url="./spots/_13_user_defaultpoint9.png"
+         url="%FIRSTXML%/spots/_13_user_defaultpoint9.png"
          visible="false"
          onhover="onhoverIconnútkhmer"
          onout="onoutIconnútkhmer"
@@ -229,7 +229,7 @@
     
   <!-- Spot Style - chùm ảnh khmer -->
   <style name="Iconchùmảnhkhmer"
-         url="./spots/_2_user_defaultpoint10.png"
+         url="%FIRSTXML%/spots/_2_user_defaultpoint10.png"
          visible="false"
          onhover="onhoverIconchùmảnhkhmer"
          onout="onoutIconchùmảnhkhmer"
