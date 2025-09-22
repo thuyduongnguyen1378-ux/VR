@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - chùm ảnh thái -->
+  <style name="Iconchùmảnhthái"
+         url="%FIRSTXML%/spots/_1_user_defaultpoint0.png"
+         visible="false"
+         onhover="onhoverIconchùmảnhthái"
+         onout="onoutIconchùmảnhthái"
+
+
+         />
+
+  <action name="onhoverIconchùmảnhthái">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconchùmảnhthái">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - chùm ảnh ê đê -->
+  <style name="Iconchùmảnhêđê"
+         url="%FIRSTXML%/spots/_3_user_defaultpoint1.png"
+         visible="false"
+         onhover="onhoverIconchùmảnhêđê"
+         onout="onoutIconchùmảnhêđê"
+
+
+         />
+
+  <action name="onhoverIconchùmảnhêđê">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconchùmảnhêđê">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - video ê đê -->
+  <style name="Iconvideoêđê"
+         url="%FIRSTXML%/spots/thi7871t_k7871_ch432a_co_ten__6__user_defaultpoint3.png"
+         visible="false"
+         onhover="onhoverIconvideoêđê"
+         onout="onoutIconvideoêđê"
+
+
+         />
+
+  <action name="onhoverIconvideoêđê">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconvideoêđê">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - audio thái -->
+  <style name="Iconaudiothái"
+         url="%FIRSTXML%/spots/thi7871t_k7871_ch432a_co_ten__7__user_defaultpoint4.png"
+         visible="false"
+         onhover="onhoverIconaudiothái"
+         onout="onoutIconaudiothái"
+
+
+         />
+
+  <action name="onhoverIconaudiothái">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconaudiothái">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - audio ê đê -->
+  <style name="Iconaudioêđê"
+         url="%FIRSTXML%/spots/_4_user_defaultpoint5.png"
+         visible="false"
+         onhover="onhoverIconaudioêđê"
+         onout="onoutIconaudioêđê"
+
+
+         />
+
+  <action name="onhoverIconaudioêđê">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconaudioêđê">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - audio khmer -->
+  <style name="Iconaudiokhmer"
+         url="%FIRSTXML%/spots/_5_user_defaultpoint6.png"
+         visible="false"
+         onhover="onhoverIconaudiokhmer"
+         onout="onoutIconaudiokhmer"
+
+
+         />
+
+  <action name="onhoverIconaudiokhmer">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconaudiokhmer">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - nút thái -->
+  <style name="Iconnútthái"
+         url="%FIRSTXML%/spots/_11_user_defaultpoint7.png"
+         visible="false"
+         onhover="onhoverIconnútthái"
+         onout="onoutIconnútthái"
+
+
+         />
+
+  <action name="onhoverIconnútthái">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconnútthái">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - nút ê đê -->
+  <style name="Iconnútêđê"
+         url="%FIRSTXML%/spots/_12_user_defaultpoint8.png"
+         visible="false"
+         onhover="onhoverIconnútêđê"
+         onout="onoutIconnútêđê"
+
+
+         />
+
+  <action name="onhoverIconnútêđê">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconnútêđê">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - nút khmer -->
+  <style name="Iconnútkhmer"
+         url="%FIRSTXML%/spots/_13_user_defaultpoint9.png"
+         visible="false"
+         onhover="onhoverIconnútkhmer"
+         onout="onoutIconnútkhmer"
+
+
+         />
+
+  <action name="onhoverIconnútkhmer">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconnútkhmer">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - chùm ảnh khmer -->
+  <style name="Iconchùmảnhkhmer"
+         url="%FIRSTXML%/spots/_2_user_defaultpoint10.png"
+         visible="false"
+         onhover="onhoverIconchùmảnhkhmer"
+         onout="onoutIconchùmảnhkhmer"
+
+
+         />
+
+  <action name="onhoverIconchùmảnhkhmer">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconchùmảnhkhmer">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <action name="displayWebVideo">
+    if(layer[webvideodisplay_bg],
+
+    ,
+      <!-- add overlay -->
+      addlayer(webvideodisplay_bg);
+      set(layer[webvideodisplay_bg].type, container);
+      set(layer[webvideodisplay_bg].zorder, 98);
+      set(layer[webvideodisplay_bg].align, topleft);
+      set(layer[webvideodisplay_bg].width, 100%);
+      set(layer[webvideodisplay_bg].height, 100%);
+      set(layer[webvideodisplay_bg].bgcolor, %16);
+      set(layer[webvideodisplay_bg].bgalpha, %17);
+      set(layer[webvideodisplay_bg].bgcapture, true);
+      set(layer[webvideodisplay_bg].handcursor, false);
+      set(layer[webvideodisplay_bg].alpha, 0.0);
+      set(layer[webvideodisplay_bg].onclick, displayWebVideoObjectClose() );
+      tween(layer[webvideodisplay_bg].alpha, 1.0, 0.5, default,
+        
+
+        addlayer(webvideodisplay_player);
+        set(layer[webvideodisplay_player].parent, layer[webvideodisplay_bg]);
+        set(layer[webvideodisplay_player].align, %13);
+        set(layer[webvideodisplay_player].x, %14);
+        set(layer[webvideodisplay_player].y, %15);
+        set(layer[webvideodisplay_player].alpha, 0.0);
+        set(layer[webvideodisplay_player].pauseautorotate, %18);
+        set(layer[webvideodisplay_player].pausebgsound, %19);
+        
+        sub(maxstagewidth, get(stagewidth), %14);
+        sub(maxstageheight, get(stageheight), %15);
+
+        if('4:3' == '%3',
+          div(aspect, 4, 3);
+        ,
+          if('2.39:1' == '%3',
+            div(aspect, 2.39, 1);
+          ,
+            div(aspect, 16, 9);
+          );
+        );
+        if(%9,
+          if(%10 == 'pixel',
+            set(new_videowidth, %9);
+            div(new_videoheight, get(new_videowidth), get(aspect));
+          ,
+            mul(new_videowidth, get(maxstagewidth), %9);
+            div(new_videowidth, 100);
+            div(new_videoheight, get(new_videowidth), get(aspect));
+          );
+        ,
+          ifnot(%11,
+            set(max_videoheight, %2);
+            set(new_videowidth, %1);
+            set(new_videoheight, %2);
+          );
+        );
+        if(%11,
+          ifnot(%9,
+            if(%12 == 'pixel',
+              set(new_videoheight, %11);
+              mul(new_videowidth, get(new_videoheight), get(aspect));
+            ,
+              mul(new_videoheight, get(maxstageheight), %11);
+              div(new_videoheight, 100);
+              mul(new_videowidth, get(new_videoheight), get(aspect));
+            );
+            set(max_videoheight, get(new_videoheight));
+          ,
+            if(%12 == 'pixel',
+              set(max_videoheight, %11);
+            ,
+              mul(max_videoheight, get(maxstageheight), %11);
+              div(max_videoheight, 100);
+            );
+          );
+        ,
+          set(max_videoheight, get(new_videoheight));
+        );
+        if(new_videowidth GT maxstagewidth,
+          set(new_videowidth, get(maxstagewidth));
+          div(new_videoheight, get(new_videowidth), get(aspect));
+        );
+        if(max_videoheight GT maxstageheight,
+          set(max_videoheight, get(maxstageheight));
+        );
+        if(new_videoheight GT max_videoheight,
+          set(new_videoheight, get(max_videoheight));
+          mul(new_videowidth, get(new_videoheight), get(aspect));
+        );
+        roundval(new_videowidth);
+        roundval(new_videoheight);
+        set(layer[webvideodisplay_player].width, get(new_videowidth));
+        set(layer[webvideodisplay_player].height, get(new_videoheight));
+        
+        set(tour_current_played_web_video, %8);
+        
+        if(device.html5,
+
+          txtadd(iframecode, '[iframe width="',get(layer[webvideodisplay_player].width),'" height="',get(layer[webvideodisplay_player].height),'" src="','%4','%8','?','%6','" frameborder="0" allowfullscreen][/iframe]');
+          set(layer[webvideodisplay_player].html, get(iframecode));
+          set(layer[webvideodisplay_player].padding, 0);
+          set(layer[webvideodisplay_player].url, '%FIRSTXML%/graphics/textfield.swf');
+          set(layer[webvideodisplay_player].onloaded, displayWebVideoObjectReady() );
+        ,
+
+          txtadd(embedurl, '%5','%8','%7');
+          set(layer[webvideodisplay_player].onloaded, registercontentsize(%1,%2);displayWebVideoObjectReady(); );
+          set(layer[webvideodisplay_player].url, get(embedurl));
+        );
+      );
+    );
+  </action>
+  <action name="displayWebVideoObjectReady">
+    if(layer[webvideodisplay_player],
+      set(layer[webvideodisplay_player].currentCall, true);
+      events.dispatch(onremovedisplayedobject);
+      tween(layer[webvideodisplay_player].alpha, 1.0, default, default,
+        if(layer[webvideodisplay_player].pauseautorotate,pauseautorotation(forcehotspot);
+);
+      );
+    );
+  </action>
+  <action name="displayWebVideoObjectClose">
+    if(layer[webvideodisplay_player],
+      if(layer[webvideodisplay_player].currentCall,
+        set(layer[webvideodisplay_player].currentCall, false);
+      ,
+        set(layer[webvideodisplay_bg].onclick, null);
+        delete(tour_current_played_web_video);
+        tween(layer[webvideodisplay_player].alpha, 0.0, 0.25, default);
+        tween(layer[webvideodisplay_bg].alpha,0.0, 0.50, default,
+          if(layer[webvideodisplay_player].pauseautorotate,resumeautorotation(forcehotspot);
+);
+          removelayer(webvideodisplay_bg);
+          removelayer(webvideodisplay_player);
+        );
+      );
+    );
+  </action>
+  <events name="displayWebVideoObjectEvents" keep="true" onremovedisplayedobject="displayWebVideoObjectClose();"/>
+
+<action name="viewControlZoomIn">
+	if(%1,
+		if(%2,
+			if(%2 LT view.fovmin,
+				zoomto(get(view.fovmin));
+			,
+				if(%2 LT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, -1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, -1);
+	);
+</action>
+<action name="viewControlZoomOut">
+	if(%1,
+		if(%2,
+			if(%2 GT view.fovmax,
+				zoomto(get(view.fovmax));
+			,
+				if(%2 GT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, +1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, +1);
+	);
+</action>
+<action name="viewControlZoomStop">
+	set(fov_moveforce, 0);
+</action>
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+  <!-- Share Tour -->
+  <action name="shareTour">events.dispatch(onsharetour);</action>
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+<action name="viewControlMoveUp">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(isfullvertical == false AND calc(view.vlookat-%2) LT view.vlookatmin,
+				moveto(get(view.hlookat), get(view.vlookatmin));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat-%2));
+			);
+		,
+			set(vlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveDown">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(sceneisfull360 == false AND calc(view.vlookat+%2) GT view.vlookatmax,
+				moveto(get(view.hlookat), get(view.vlookatmax));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat+%2));
+			);
+		,
+			set(vlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveLeft">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat-%2) LT view.hlookatmin,
+				moveto(get(view.hlookatmin), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat-%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+		);
+	,
+		set(hlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveRight">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat+%2) GT view.hlookatmax,
+				moveto(get(view.hlookatmax), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat+%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+			
+		);
+	,
+		set(hlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveHoriStop">
+	set(hlookat_moveforce, 0);
+</action>
+<action name="viewControlMoveVertStop">
+	set(vlookat_moveforce, 0);
+</action>
+
+</krpano>
